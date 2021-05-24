@@ -18,7 +18,7 @@ Coronavirus is expanding its form in the form of different mutations leading to 
 * Ublox ne0-6m GPS module for Location tracking.
 ### Software:
 * Arduino IDE: For ESP8266 NodeMCU programming. The Libraries used are:
-  * MAX30100
+  * [MAX30100](/Libraries/MAX30100.zip)
   * OakOLED
   * TinyGPSPlus
   * pubsubclient
