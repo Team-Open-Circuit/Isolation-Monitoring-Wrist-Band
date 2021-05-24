@@ -38,7 +38,7 @@ Adafruit_MLX90614 mlx = Adafruit_MLX90614();
 
 Adafruit_SSD1306 display(-1);     // oled display
 
-int BUTTON_PIN = 6;              // choose the input pin (for a pushbutton)
+#define BUTTON_PIN D0           // choose the input pin (for a pushbutton)
 int status = 0;                  // variable for reading the pin status
 
 TinyGPSPlus gps;                // The TinyGPS++ object
