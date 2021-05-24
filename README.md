@@ -46,9 +46,9 @@ Coronavirus is expanding its form in the form of different mutations leading to 
 * We have used oLED 64*128, so we need to make uncomment the line from the Adafruit_SSD1306 library file as shown.
 
 ![Adafruit_SSD1306](/Images/gfx.PNG)
-* Now uncooment the line as shown.
+* Now uncomment the line as shown.
 ![uncomment](/Images/uncomment.PNG)
-* Now open the Ardunio file and compile and upload to your Nodemcu esp8266.  
+* Now open the Ardunio file and compile and upload to your Nodemcu ESP8266.  
 
 # Circuit Diagram
 ![Circuit Diagram](/Images/Circuit.png)
