@@ -25,7 +25,7 @@ Coronavirus is expanding its form in the form of different mutations leading to 
 ![Circuit Diagram](/Images/Circuit.png)
 
 # Ubidots Dashboard
-Here is a sample of Ubidots dashboard with various health and activity status of the user (patient). Once the NdeMCU publishes data to the Ubidots Cloud, the devices widgets automatically update the current status of the devices.
+Here is a sample of Ubidots dashboard with various health and activity status of the user (patient). Once the NdeMCU publishes data to the Ubidots Cloud, the devices widgets automatically update the current status of the devices.\n
 ![Ubidots Dashboard](/Images/Dashboard.png)
 
 # Data Flow Diagram
