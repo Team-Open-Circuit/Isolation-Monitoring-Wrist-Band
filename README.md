@@ -19,10 +19,10 @@ Coronavirus is expanding its form in the form of different mutations leading to 
 ### Software:
 * Arduino IDE: For ESP8266 NodeMCU programming. The Libraries used are:
   * [MAX30100](/Libraries/MAX30100.zip)
-  * OakOLED
-  * TinyGPSPlus
-  * pubsubclient
-  * ubidots-mqtt-esp
+  * [OakOLED](/Libraries/OakOLED.zip)
+  * [TinyGPSPlus](/Libraries/TinyGPSPlus.zip)
+  * [pubsubclient](/Libraries/pubsubclient.zip)
+  * [ubidots-mqtt-esp](/Libraries/ubidots-mqtt-esp.zip)
 * Fritzing IDE: To make a virtual Circuit with all the hardware.
 * Ubitdots Cloud: Ubidots is used as the IoT Cloud which is communicated using MQTT protocol. Ubidots also allows to make an IoT dashboard which displays all the patient status.
 
