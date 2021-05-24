@@ -7,7 +7,7 @@ Coronavirus is expanding its form in the form of different mutations leading to 
 * Tracking the status and location of the band (by medical authority) to ensure that the patient follows quarantine strictly.
 * Connnects the patients and their health status to the nearby or concerned health care facilities.
 * Emergency monitoring of the patient, to attend patient emergency situation based on health status fluctuation or emergency button pressed by patient.
-* 
+ 
 ## Hardware and Software Requirement
 ### Hardware:
 * The NodeMCU ESP8266 WiFi enabled SoC as the opensource IoT Development Platform.
@@ -17,14 +17,23 @@ Coronavirus is expanding its form in the form of different mutations leading to 
 * 0.96 inch IIC/I2C OLED displlay module for wrist band display.
 * Ublox ne0-6m GPS module for Location tracking.
 ### Software:
-* Arduino IDE: For ESP8266 NodeMCU programming. The Libraries used are:
+* Arduino IDE: For ESP8266 NodeMCU programming.
+* Fritzing IDE: To make a [Virtual Circuit Diagram](https://github.com/vbeyrc0768/Isolation-Monitoring-Wrist-Band/blob/main/README.md#circuit-diagram) with all the hardware.
+* Ubitdots Cloud: Ubidots is used as the IoT Cloud which is communicated using MQTT protocol. Ubidots also allows to make a customized [IoT Dashboard](https://github.com/vbeyrc0768/Isolation-Monitoring-Wrist-Band#ubidots-dashboard) which displays all the patient statuses.
+
+# INSTALLATION
+* Download [Arduino IDE](https://www.arduino.cc/en/software)
+* In Arduino ide, goto Preferences and add `http://arduino.esp8266.com/stable/package_esp8266com_index.json` in addition board manager url as shown in the image and goto board manager and download esp8266 as shown.
+![nodemcu_preference](/Images/nodemcu_preference.PNG)
+![esp8266](/Images/nodemcu_board.PNG)
+* Add the following libraries :
   * [MAX30100](/Libraries/MAX30100.zip)
-  * [OakOLED](/Libraries/OakOLED.zip)
+  * [Adafruit_GFX](/Libraries/Adafruit_GFX_Library.zip)
+  * [Adafruit_SSD1306](/Libraries/Adafruit_SSD1306.zip)
   * [TinyGPSPlus](/Libraries/TinyGPSPlus.zip)
   * [pubsubclient](/Libraries/pubsubclient.zip)
   * [ubidots-mqtt-esp](/Libraries/ubidots-mqtt-esp.zip)
-* Fritzing IDE: To make a [Virtual Circuit Diagram](https://github.com/vbeyrc0768/Isolation-Monitoring-Wrist-Band/blob/main/README.md#circuit-diagram) with all the hardware.
-* Ubitdots Cloud: Ubidots is used as the IoT Cloud which is communicated using MQTT protocol. Ubidots also allows to make a customized [IoT Dashboard](https://github.com/vbeyrc0768/Isolation-Monitoring-Wrist-Band#ubidots-dashboard) which displays all the patient statuses.
+* Now open the file and compile and upload to your Nodemcu esp8266.  
 
 # Circuit Diagram
 ![Circuit Diagram](/Images/Circuit.png)
