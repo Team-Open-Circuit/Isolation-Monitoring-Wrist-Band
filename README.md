@@ -9,6 +9,7 @@ e-Yantra Hackathon 2021 Team: *eYHC#1382*
 - [Circuit Diagram](#circuit-diagram)
 - [Ubidots Dashboard](#ubidots-dashboard)
 - [Data Flow Diagram](#data-flow-diagram)
+- [References](#references)
 ## Description
 Coronavirus is expanding its form in the form of different mutations leading to mass spreading waves around the globe. Though the vaccination process has begun, there is a need to monitor the health and isolation of many patients who prefer self isolation to control the spread, until the vaccination procedure is complete across the vast population in our country. So, the idea of this project is to make an IoT based wrist band called the *Isolation Monititoring Band* which has the following functionalities:
 * Monitoring the patients' health conditions remotely by regular check of of parameters like Pulse-rate, Oxygen levels, Body Temperature.
@@ -64,3 +65,8 @@ The dataflow diagram below shows the total working of *Isolation Monitoring Wris
 * The Cloud updates the Dashboard which is accessed by the Health facilities and also visible to the patient.
 * Frequent Health status is updated to the Healthcare database and the patient.
 * The emergency is triggered with either large fluctuation in health parameters or manually by the patient (by pressing emergency button) to alert the Healthcare facility and the patient. This ensures that the patient is attended to by the Medical Aid when in emergency.
+
+# References
+* [Using MQTT broker with ubidots](https://github.com/ubidots/ubidots-mqtt-esp)
+* [Using oLED](https://create.arduino.cc/projecthub/Arnov_Sharma_makes/0-96-inch-oled-getting-started-guide-78163a)
+* [Using max30100](https://create.arduino.cc/projecthub/iasonas-christoulakis/measure-spo2-heart-rate-and-bpt-using-arduino-68724d?ref=part&ref_id=10308&offset=9)
