@@ -24,10 +24,14 @@ Coronavirus is expanding its form in the form of different mutations leading to 
   * [pubsubclient](/Libraries/pubsubclient.zip)
   * [ubidots-mqtt-esp](/Libraries/ubidots-mqtt-esp.zip)
 * Fritzing IDE: To make a [Virtual Circuit Diagram](https://github.com/vbeyrc0768/Isolation-Monitoring-Wrist-Band/blob/main/README.md#circuit-diagram) with all the hardware.
-* Ubitdots Cloud: Ubidots is used as the IoT Cloud which is communicated using MQTT protocol. Ubidots also allows to make an IoT dashboard which displays all the patient status.
+* Ubitdots Cloud: Ubidots is used as the IoT Cloud which is communicated using MQTT protocol. Ubidots also allows to make an [IoT Dashboard](https://github.com/vbeyrc0768/Isolation-Monitoring-Wrist-Band#ubidots-dashboard) which displays all the patient status.
 
 # Circuit Diagram
 ![Circuit Diagram](/Images/Circuit.png)
+
+# Ubidots Dashboard
+Here is a sample of Ubidots dashboard with various health and activity status of the user (patient). Once the NdeMCU publishes data to the Ubidots Cloud, the devices widgets automatically update the current status of the devices.
+![Ubidots Dashboard](/Images/Dashboard.png)
 
 # Data Flow Diagram
 ![Data Flow Diagram](/Images/Working.jpg)
@@ -37,7 +41,3 @@ The dataflow diagram below shows the total working of *Isolation Monitoring Wris
 * The Cloud updates the Dashboard which is accessed by the Health facilities and also visible to the patient.
 * Frequent Health status is updated to the Healthcare database and the patient.
 * The emergency is triggered with either large fluctuation in health parameters or manually by the patient (by pressing emergency button) to alert the Healthcare facility and the patient. This ensures that the patient is attended to by the Medical Aid when in emergency.
-
-# Ubidots Dashboard
-Here is a sample of Ubidots dashboard with various health and activity status of the user (patient). Once the NdeMCU publishes data to the Ubidots Cloud, the devices widgets automatically update the current status of the devices.
-![Ubidots Dashboard](/Images/Dashboard.png)
