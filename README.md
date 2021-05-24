@@ -18,3 +18,5 @@ Coronavirus is expanding its form in the form of different mutations leading to 
 * Arduino IDE: For ESP8266 NodeMCU programming.
 * Fritzing IDE: To make a virtual Circuit with all the hardware.
 * Ubitdots Cloud: Ubidots is used as the IoT Cloud which is communicated using MQTT protocol. Ubidots also allows to make an IoT dashboard which displays all the patient status.
+# Circuit Diagram
+![Circuit Diagram](/Images/Circuit.png)
