@@ -25,8 +25,14 @@ Coronavirus is expanding its form in the form of different mutations leading to 
 ![Circuit Diagram](/Images/Circuit.png)
 
 # Ubidots Dashboard
-Here is a sample of Ubidots dashboard with various health and activity status of the user (patient). Once the NdeMCU publishes data to the Ubidots Cloud, the devices widgets automatically update the current status of the devices.\n
+Here is a sample of Ubidots dashboard with various health and activity status of the user (patient). Once the NdeMCU publishes data to the Ubidots Cloud, the devices widgets automatically update the current status of the devices.
 ![Ubidots Dashboard](/Images/Dashboard.png)
 
 # Data Flow Diagram
 ![Data Flow Diagram](/Images/Working.jpg)
+The dataflow diagram below shows the total working of *Isolation Monitoring Wrist Band* prototype.
+* The data from the sensor are frequently read by the NodeMCU and displayed in the wrist-band OLED display.
+* The data is also published to the Ubidots Cloud via MQTT protocol.
+* The Cloud updates the Dashboard which is accessed by the Health facilities and also visible to the patient.
+* Frequent Health status is updated to the Healthcare database and the patient.
+* The emergency is triggered with either large fluctuation in health parameters or manually by the patient (by pressing emergency button) to alert the Healthcare facility and the patient. This ensures that the patient is attended to by the Health Authorities when in emergency.
