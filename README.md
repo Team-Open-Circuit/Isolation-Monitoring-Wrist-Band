@@ -24,7 +24,9 @@ Coronavirus is expanding its form in the form of different mutations leading to 
 # INSTALLATION
 * Download [Arduino IDE](https://www.arduino.cc/en/software)
 * In Arduino ide, goto Preferences and add `http://arduino.esp8266.com/stable/package_esp8266com_index.json` in addition board manager url as shown in the image and goto board manager and download esp8266 as shown.
+
 ![nodemcu_preference](/Images/nodemcu_preference.PNG)
+
 ![esp8266](/Images/nodemcu_board.PNG)
 * Add the following libraries :
   * [MAX30100](/Libraries/MAX30100.zip)
