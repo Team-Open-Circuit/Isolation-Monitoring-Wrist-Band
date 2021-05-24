@@ -34,7 +34,7 @@ Coronavirus is expanding its form in the form of different mutations leading to 
 * In Arduino ide, goto Preferences and add `http://arduino.esp8266.com/stable/package_esp8266com_index.json` in addition board manager url as shown in the image.
 ![nodemcu_preference](/Images/nodemcu_preference.PNG)
 * Goto board manager and download esp8266 board as shown in the image.
-![esp8266](/Images/nodemcu_board.PNG)
+![esp8266](/Images/nodemcu_board_manager.PNG)
 * Add the following libraries :
   * [MAX30100](/Libraries/MAX30100.zip)
   * [Adafruit_GFX](/Libraries/Adafruit_GFX_Library.zip)
