@@ -35,4 +35,4 @@ The dataflow diagram below shows the total working of *Isolation Monitoring Wris
 * The data is also published to the Ubidots Cloud via MQTT protocol.
 * The Cloud updates the Dashboard which is accessed by the Health facilities and also visible to the patient.
 * Frequent Health status is updated to the Healthcare database and the patient.
-* The emergency is triggered with either large fluctuation in health parameters or manually by the patient (by pressing emergency button) to alert the Healthcare facility and the patient. This ensures that the patient is attended to by the Health Authorities when in emergency.
+* The emergency is triggered with either large fluctuation in health parameters or manually by the patient (by pressing emergency button) to alert the Healthcare facility and the patient. This ensures that the patient is attended to by the Medical Aid when in emergency.
