@@ -23,10 +23,9 @@ Coronavirus is expanding its form in the form of different mutations leading to 
 
 # INSTALLATION
 * Download [Arduino IDE](https://www.arduino.cc/en/software)
-* In Arduino ide, goto Preferences and add `http://arduino.esp8266.com/stable/package_esp8266com_index.json` in addition board manager url as shown in the image and goto board manager and download esp8266 as shown.
-
+* In Arduino ide, goto Preferences and add `http://arduino.esp8266.com/stable/package_esp8266com_index.json` in addition board manager url as shown in the image.
 ![nodemcu_preference](/Images/nodemcu_preference.PNG)
-
+* Goto board manager and download esp8266 board as shown in the image.
 ![esp8266](/Images/nodemcu_board.PNG)
 * Add the following libraries :
   * [MAX30100](/Libraries/MAX30100.zip)
@@ -35,7 +34,12 @@ Coronavirus is expanding its form in the form of different mutations leading to 
   * [TinyGPSPlus](/Libraries/TinyGPSPlus.zip)
   * [pubsubclient](/Libraries/pubsubclient.zip)
   * [ubidots-mqtt-esp](/Libraries/ubidots-mqtt-esp.zip)
-* Now open the file and compile and upload to your Nodemcu esp8266.  
+* We have used oLED 64*128, so we need to make uncomment the line from the Adafruit_SSD1306 library file as shown.
+
+![Adafruit_SSD1306](/Images/gfx.PNG)
+* Now uncooment the line as shown.
+![uncomment](/Images/uncomment.PNG)
+* Now open the Ardunio file and compile and upload to your Nodemcu esp8266.  
 
 # Circuit Diagram
 ![Circuit Diagram](/Images/Circuit.png)
