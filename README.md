@@ -20,3 +20,7 @@ Coronavirus is expanding its form in the form of different mutations leading to 
 * Ubitdots Cloud: Ubidots is used as the IoT Cloud which is communicated using MQTT protocol. Ubidots also allows to make an IoT dashboard which displays all the patient status.
 # Circuit Diagram
 ![Circuit Diagram](/Images/Circuit.png)
+# Ubidots Dashboard
+![Ubidots Dashboard](/Images/Dashboard.png)
+# Data Flow Diagram
+![Data Flow Diagram](/Images/Working.jpg)
