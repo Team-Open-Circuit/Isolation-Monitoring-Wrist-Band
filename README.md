@@ -16,7 +16,7 @@ Coronavirus is expanding its form in the form of different mutations leading to 
 * Tracking the status and location of the band (by medical authority) to ensure that the patient follows quarantine strictly.
 * Connnects the patients and their health status to the nearby or concerned health care facilities.
 * Emergency monitoring of the patient, to attend patient emergency situation based on health status fluctuation or emergency button pressed by patient.
- 
+
 ## Hardware and Software Requirement
 ### Hardware:
 * The NodeMCU ESP8266 WiFi enabled SoC as the opensource IoT Development Platform.
@@ -67,6 +67,6 @@ The dataflow diagram below shows the total working of *Isolation Monitoring Wris
 * The emergency is triggered with either large fluctuation in health parameters or manually by the patient (by pressing emergency button) to alert the Healthcare facility and the patient. This ensures that the patient is attended to by the Medical Aid when in emergency.
 
 # References
-* [Using MQTT broker with ubidots](https://github.com/ubidots/ubidots-mqtt-esp)
+* [Using MQTT broker with Ubidots](https://github.com/ubidots/ubidots-mqtt-esp)
 * [Using oLED](https://create.arduino.cc/projecthub/Arnov_Sharma_makes/0-96-inch-oled-getting-started-guide-78163a)
 * [Using max30100](https://create.arduino.cc/projecthub/iasonas-christoulakis/measure-spo2-heart-rate-and-bpt-using-arduino-68724d?ref=part&ref_id=10308&offset=9)
