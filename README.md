@@ -1,5 +1,5 @@
 # **Isolation-Monitoring-Wrist-Band**
-e-Yantra Hackathon 2021 Team: *eYHC#1382*
+e-Yantra Hackathon 2021 Team: eYHC#1382
 
 # Table of Contents
 - [Description](#description)
